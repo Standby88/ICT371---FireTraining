@@ -90,6 +90,8 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\FireExtingusher.cs" />
+    <Compile Include="Assets\Flammable.cs" />
     <Compile Include="Assets\SaveLoad\Gameplay.cs" />
     <Compile Include="Assets\Script\ChangeScene.cs" />
     <Compile Include="Assets\Script\Character.cs" />

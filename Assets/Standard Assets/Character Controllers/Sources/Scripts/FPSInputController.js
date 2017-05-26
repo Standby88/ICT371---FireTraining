@@ -2,7 +2,7 @@ private var motor : CharacterMotor;
 
 // Use this for initialization
 function Awake () {
-	motor = GetComponent(CharacterMotor);
+    motor = GetComponent(CharacterMotor);
 }
 
 // Update is called once per frame

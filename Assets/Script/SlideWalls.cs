@@ -35,6 +35,7 @@ public class SlideWalls : MonoBehaviour
         if(t > 1.0f)
         {
             inPosition = true;
+            Destroy(GetComponent<Rigidbody>());
         }
     }
 }
