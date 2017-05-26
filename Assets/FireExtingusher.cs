@@ -6,14 +6,12 @@ using UnityEngine;
 public class FireExtingusher : MonoBehaviour {
 
     public ParticleSystem flameParticle;
-    public Collider flamecollider;
 
     private float emitRate = 400;
 	// Use this for initialization
 	void Start () {
         //emitRate = flameParticle.emissionRate;
         flameParticle.emissionRate = 0.0f;
-        flamecollider.enabled = false;
     }
 	
 	// Update is called once per frame
@@ -21,12 +19,10 @@ public class FireExtingusher : MonoBehaviour {
 		if(Input.GetMouseButtonDown(0))
         {
             flameParticle.emissionRate = emitRate;
-            flamecollider.enabled = true;
         }
         else if(Input.GetMouseButtonUp(0))
         {
             flameParticle.emissionRate = 0.0f;
-            flamecollider.enabled = false;
         }
 	}
 }
