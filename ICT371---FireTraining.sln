@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ICT371---FireTraining.CSharp.Plugins", "ICT371---FireTraining.CSharp.Plugins.csproj", "{BEF7F180-BF2A-738E-EA0A-E04B7799A862}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ICT371---FireTraining.CSharp", "ICT371---FireTraining.CSharp.csproj", "{7F33D8DB-9D06-6415-BE08-5EABDEF18FEC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BEF7F180-BF2A-738E-EA0A-E04B7799A862}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEF7F180-BF2A-738E-EA0A-E04B7799A862}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEF7F180-BF2A-738E-EA0A-E04B7799A862}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEF7F180-BF2A-738E-EA0A-E04B7799A862}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F33D8DB-9D06-6415-BE08-5EABDEF18FEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F33D8DB-9D06-6415-BE08-5EABDEF18FEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F33D8DB-9D06-6415-BE08-5EABDEF18FEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F33D8DB-9D06-6415-BE08-5EABDEF18FEC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
